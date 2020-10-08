@@ -5,10 +5,10 @@ class Pokemon
 
   def initialize(id, name, type, db, hp)
     @id=id
-    @db=db
     @name=name
     @type=type
     @hp=hp
+    @db=db
   end
 
 end
